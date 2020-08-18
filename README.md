@@ -23,7 +23,7 @@ This is a complete dynamic contact app with axios and json server
 git clone https://github.com/Rafiul-Islam/Contact-App-With-AJAX/
 ```
 
-Open the `Json Server` folder in the project folder
+Open the `Json Server` folder of the project
 
 Install [JSON Server](https://github.com/typicode/json-server)
 ```
