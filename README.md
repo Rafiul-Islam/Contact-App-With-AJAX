@@ -25,7 +25,7 @@ git clone https://github.com/Rafiul-Islam/Contact-App-With-AJAX/
 
 Open the `Json Server` folder in the project folder
 
-Install JSON Server
+Install [JSON Server](https://github.com/typicode/json-server)
 ```
 npm install -g json-server
 ```
