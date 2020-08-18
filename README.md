@@ -105,7 +105,7 @@ Now if you go to http://localhost:3000/Users you'll get
   }
 ]
 ```
-This data are generated using [faker.js](https://github.com/marak/Faker.js/) in the index.html file of this folder
+This data are generated using [faker.js](https://github.com/marak/Faker.js/) in the `index.html` file of this folder
 
 Now get back to the project folder
 
