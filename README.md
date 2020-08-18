@@ -23,7 +23,7 @@ This is a complete dynamic contact app with axios and json server
 git clone https://github.com/Rafiul-Islam/Contact-App-With-AJAX/
 ```
 
-Open the `Json Server` folder
+Open the `Json Server` folder in the project folder
 
 Install JSON Server
 ```
@@ -105,9 +105,9 @@ Now if you go to http://localhost:3000/Users you'll get
   }
 ]
 ```
-This data are generated using faker.js [faker.js](https://github.com/marak/Faker.js/) in the index.html file
+This data are generated using [faker.js](https://github.com/marak/Faker.js/) in the index.html file of this folder
 
-Now get beack to the project folder
+Now get back to the project folder
 
  ### Installation
  ```
