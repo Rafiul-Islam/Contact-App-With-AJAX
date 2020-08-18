@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="output"></div>
+
+    <!--! start javascript part here -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"
+      integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let data = [];
+
+      for (let index = 0; index < 10; index++) {
+        let obj = {};
+        obj.id = index + 1;
+        obj.name = faker.name.findName();
+        obj.email = faker.internet.email();
+        obj.jobTitle = faker.name.jobTitle();
+
+        data.push(obj);
+      }
+      document.getElementById("output").innerHTML = JSON.stringify(data);
+      console.log(data);
+    </script>
+  </body>
+</html>
